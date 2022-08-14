@@ -1,35 +1,22 @@
-{
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
-  }
-}
+[
+  {
+  month: "January",
+  sales: "28000"
+  },
+  {
+  month: "February",
+  sales: "10000"
+  },
+  {
+  month: "March",
+  sales: "13000"
+  }, 
+  {
+  month: "April",
+  sales: "91000"
+  },
+  {
+  month: "May",
+  sales: "120000"
+  },
+]
